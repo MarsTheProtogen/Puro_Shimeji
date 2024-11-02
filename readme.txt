@@ -1,4 +1,4 @@
-<b>NOTE</b>
+**NOTE**
 This is <b>NOT</b> my original program 
 I have only modified some animations and how often diffrent events happen
 
