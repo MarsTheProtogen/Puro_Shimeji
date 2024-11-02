@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-04-18T13:07:11</date>
+  <millis>1650301631029</millis>
+  <sequence>756</sequence>
+  <logger>com.group_finity.mascot.config.BehaviorBuilder</logger>
+  <level>SEVERE</level>
+  <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+  <method>validate</method>
+  <thread>1</thread>
+  <message>There is no corresponding action(Behavior(Greeting 1,0,Greeting 1))</message>
+</record>
+<record>
+  <date>2022-04-18T13:07:11</date>
+  <millis>1650301631030</millis>
+  <sequence>757</sequence>
+  <logger>com.group_finity.mascot.Main</logger>
+  <level>SEVERE</level>
+  <class>com.group_finity.mascot.Main</class>
+  <method>loadConfiguration</method>
+  <thread>1</thread>
+  <message>Failed to load configuration files</message>
+  <exception>
+    <message>com.group_finity.mascot.exception.ConfigurationException: There is no corresponding action(Behavior(Greeting 1,0,Greeting 1))</message>
+    <frame>
+      <class>com.group_finity.mascot.config.BehaviorBuilder</class>
+      <method>validate</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.group_finity.mascot.config.Configuration</class>
+      <method>validate</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>com.group_finity.mascot.Main</class>
+      <method>loadConfiguration</method>
+      <line>407</line>
+    </frame>
+    <frame>
+      <class>com.group_finity.mascot.Main</class>
+      <method>run</method>
+      <line>283</line>
+    </frame>
+    <frame>
+      <class>com.group_finity.mascot.Main</class>
+      <method>main</method>
+      <line>133</line>
+    </frame>
+  </exception>
+</record>
+</log>
