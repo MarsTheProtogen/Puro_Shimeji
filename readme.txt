@@ -1,8 +1,13 @@
 NOTE
-This is <b>NOT</b> my original program 
+This is NOT my original program 
 I have only modified some animations and how often diffrent events happen
 
 The following is the guide that comes originaly with the Shimeji-ee.jar and related data
+
+
+
+
+
 
 Shimeji-ee: Shimeji English Enhanced
 
